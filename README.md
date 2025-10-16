@@ -1,8 +1,3 @@
----
-title: Hanswitch Product API Documentation
-description: Comprehensive documentation strategy and structure for the Han Limited Core Product API.
----
-
 # Hanswitch Product API Documentation
 
 Welcome to the documentation repository for the new **Hanswitch Product API**.

@@ -14,7 +14,7 @@ The resulting documentation will be hosted in the `docs/` directory, following a
 - **Reference:** Auto-generated, definitive API specification (e.g., OpenAPI).  
 - **Guides:** Explanations of core concepts and complex topics.  
 - **Tutorials:** Step-by-step instructions for common use cases.  
-  - Example: [`docs/TUTORIAL_SETUP_AND_PING.mdx`](./docs/TUTORIAL_SETUP_AND_PING.mdx)
+  - Example: [`docs/TUTORIAL.mdx`](./docs/tutorial.mdx)
 
 ---
 

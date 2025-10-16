@@ -1,0 +1,31 @@
+# Tutorial: Setup and Ping Endpoint
+
+## 🎯 Goal
+
+Connect to the **Hanswitch API**, authenticate your request, and receive a successful response from the basic health check endpoint.
+
+---
+
+## 👥 Audience
+
+**Beginner Developer**
+
+### 🧩 Prerequisites
+
+You must have an **active API Key** (available on your **Partner Dashboard**).
+
+---
+
+## 🧱 Step 1: Secure Your API Key
+
+For this tutorial, we’ll use the `X-API-KEY` header for authentication.
+
+> ⚠️ **CRITICAL SECURITY WARNING:**  
+> Never expose your API Key in front-end code, version control (like Git), or public logs.  
+> Always store it as a **secure environment variable**.
+
+### Environment Variable Setup (Linux/macOS)
+
+```bash
+export HAN_API_KEY="your-secret-key-here-12345"
+echo "API Key set successfully."

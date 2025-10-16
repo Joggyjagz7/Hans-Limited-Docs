@@ -18,6 +18,3 @@ The resulting documentation will be hosted in the `docs/` directory, following a
 
 ---
 
-## 🎯 Goal
-
-Our goal is to create the **fastest path from signup to a successful, production-ready integration**.

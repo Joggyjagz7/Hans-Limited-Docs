@@ -6,10 +6,6 @@ Connect to the **Hanswitch API**, authenticate your request, and receive a succe
 
 ---
 
-## Audience
-
-**Beginner Developer**
-
 ### Prerequisites
 
 You must have an **active API Key** (available on your **Partner Dashboard**).
@@ -89,7 +85,7 @@ except requests.exceptions.RequestException as e:
 ```json
 {
   "status": "success",
-  "message": "Pong! API is operational.",
+  "message": "Ping! API is operational.",
   "timestamp": "2025-10-16T14:30:00Z"
 }
 ```
@@ -101,12 +97,12 @@ Below are common error responses you may encounter when testing the **Han Limite
 | **Status Code** | **Potential Cause** | **Fix** |
 |-----------------|---------------------|---------|
 | **401 Unauthorized** | Missing or incorrect `X-API-KEY` header. | Double-check that `HAN_API_KEY` is set correctly and the header is spelled exactly as `X-API-KEY`. |
-| **403 Forbidden** | API Key may be revoked or restricted (e.g., firewall blocked). | Contact **Han Support** to verify your key's status. |
+| **403 Forbidden** | IP Not whitelisted | Add your static IPs to the whitelist section of your Hans Dashboard |
 | **500 Internal Server Error** | Our issue. | Check the Han Limited [Status Page](#) for known outages. |
 
 ---
 
 > 💡 **Tip:**  
-> If none of these fixes resolve your issue, try regenerating your API key from the Partner Dashboard and repeat the setup steps.
+> If none of these fixes resolve your issue, try regenerating your API key from your Hans Dashboard and repeat the setup steps.
 
 
